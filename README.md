@@ -1,6 +1,6 @@
 # NO SHORTS! I DON'T WANT THEM ANYWHERE NEAR ME!
 NO NO NO NO NO POMERGRANATES-i mean no Youtube shorts! :smile: \
-With this nifty little chrome extension those pesky little distractions are a thing of the past. \
+With this nifty little chrome extension those pesky distractions are a thing of the past. \
 No more mindless scrolling through an endless feed of shortform content!
 
 ## How To Use
