@@ -5,8 +5,14 @@
     "content_scripts" : [
         {
             "matches" : ["*://www.youtube.com/*"],
-            "js" : ["script.js"],
-            "css" : ["styles.css"]
+            "js" : ["script.js"]
         }
-    ]
+    ],   
+    "permissions": [
+        "webNavigation",
+        "tabs"
+    ],
+    "background": {
+        "service_worker": "background.js"
+      }
 }

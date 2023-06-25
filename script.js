@@ -11,7 +11,7 @@ const miniGuidePurge = () => {
         shorts.remove();
         }
     } catch (err) {
-        console.log('oopsy');
+        //console.log('oopsy');
     }
 }
   
@@ -25,7 +25,7 @@ const guidePurge = () => {
             shorts.remove();
         }
     } catch (err) {
-        console.log('oopsy');
+        //console.log('oopsy');
     }
 }
 
@@ -39,7 +39,7 @@ const dismissiblePurge = () => {
             
         } 
     } catch (err) {
-        console.log('oopsy');
+        //console.log('oopsy');
     }
 } 
 
