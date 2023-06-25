@@ -1,7 +1,7 @@
-const redirect = (details) => {
-    if (details.url.includes("www.youtube.com/shorts")) {
-        chrome.tabs.update(details.tabId, { url: "https://youtube.com" });
+const redirect = (tabId, changeInfo, tab) => {
+    if (changeInfo.url.includes("youtube.com/shorts")) {
+        chrome.tabs.update(tabId, { url: "https://youtube.com" });
     }
-} 
+}
 
-chrome.webNavigation.onBeforeNavigate.addListener(redirect);
+chrome.tabs.onUpdated.addListener(redirect);
