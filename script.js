@@ -11,8 +11,15 @@ const observer = new MutationObserver((mutationList, observer) => {
                 const containsShorts = /shorts/i.test(mutation.addedNodes[i].outerText);
                 if (containsShorts && nodeNames.includes(mutation.addedNodes[i].nodeName)) {
                     mutation.addedNodes[i].remove();
+                } else if (mutation.addedNodes[i].href) {
+                    if (mutation.addedNodes[i].href.includes('/shorts/')){
+                        const vid = mutation.addedNodes[i].parentNode.parentNode.parentNode.parentNode.parentNode;
+                        vid.remove();
+                    }
                 }
             }
+
+
         }
     }
 });
