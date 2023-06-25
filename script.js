@@ -13,7 +13,7 @@ const observer = new MutationObserver((mutationList, observer) => {
                     mutation.addedNodes[i].remove();
                 } else if (mutation.addedNodes[i].href) {
                     if (mutation.addedNodes[i].href.includes('/shorts/')){
-                        const vid = mutation.addedNodes[i].parentNode.parentNode.parentNode.parentNode.parentNode;
+                        const vid = mutation.addedNodes[i].parentNode.parentNode.parentNode;
                         vid.remove();
                     }
                 }
