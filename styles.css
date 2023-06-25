@@ -1,0 +1,11 @@
+ytd-mini-guide-entry-renderer[aria-label="Shorts"] {
+    display: none !important;
+}
+
+ytd-guide-entry-renderer:nth-of-type(2) {
+    display: none !important;
+}
+
+ytd-rich-section-renderer {
+    display: none !important;
+}
