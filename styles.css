@@ -2,7 +2,7 @@ ytd-mini-guide-entry-renderer[aria-label="Shorts"] {
     display: none !important;
 }
 
-ytd-guide-entry-renderer:nth-of-type(2) {
+a[title="Shorts"] {
     display: none !important;
 }
 
